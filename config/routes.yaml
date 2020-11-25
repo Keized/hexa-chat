@@ -1,3 +1,4 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+register:
+    path: /register
+    controller: App\Infrastructure\Controller\RegisterController
+    methods: 'POST'

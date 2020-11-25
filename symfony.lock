@@ -1,8 +1,35 @@
 {
+    "doctrine/annotations": {
+        "version": "1.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "1.0",
+            "ref": "a2759dd6123694c8d901d0ec80006e044c2e6457"
+        },
+        "files": [
+            "config/routes/annotations.yaml"
+        ]
+    },
+    "doctrine/lexer": {
+        "version": "1.2.1"
+    },
+    "phpdocumentor/reflection-common": {
+        "version": "2.2.0"
+    },
+    "phpdocumentor/reflection-docblock": {
+        "version": "5.2.2"
+    },
+    "phpdocumentor/type-resolver": {
+        "version": "1.4.0"
+    },
     "psr/cache": {
         "version": "1.0.1"
     },
     "psr/container": {
+        "version": "1.0.0"
+    },
+    "psr/event-dispatcher": {
         "version": "1.0.0"
     },
     "psr/log": {
@@ -30,11 +57,11 @@
             "config/bootstrap.php"
         ]
     },
-    "symfony/debug": {
-        "version": "v4.4.16"
-    },
     "symfony/dependency-injection": {
         "version": "v4.4.16"
+    },
+    "symfony/deprecation-contracts": {
+        "version": "v2.2.0"
     },
     "symfony/dotenv": {
         "version": "v4.4.16"
@@ -96,10 +123,22 @@
     "symfony/http-kernel": {
         "version": "v4.4.16"
     },
-    "symfony/mime": {
-        "version": "v4.4.16"
+    "symfony/phpunit-bridge": {
+        "version": "4.3",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "4.3",
+            "ref": "6d0e35f749d5f4bfe1f011762875275cd3f9874f"
+        },
+        "files": [
+            ".env.test",
+            "bin/phpunit",
+            "phpunit.xml.dist",
+            "tests/bootstrap.php"
+        ]
     },
-    "symfony/polyfill-intl-idn": {
+    "symfony/polyfill-intl-grapheme": {
         "version": "v1.20.0"
     },
     "symfony/polyfill-intl-normalizer": {
@@ -108,14 +147,17 @@
     "symfony/polyfill-mbstring": {
         "version": "v1.20.0"
     },
-    "symfony/polyfill-php72": {
-        "version": "v1.20.0"
-    },
     "symfony/polyfill-php73": {
         "version": "v1.20.0"
     },
     "symfony/polyfill-php80": {
         "version": "v1.20.0"
+    },
+    "symfony/property-access": {
+        "version": "v5.1.8"
+    },
+    "symfony/property-info": {
+        "version": "v5.1.8"
     },
     "symfony/routing": {
         "version": "4.2",
@@ -131,8 +173,17 @@
             "config/routes.yaml"
         ]
     },
+    "symfony/serializer": {
+        "version": "v5.1.8"
+    },
+    "symfony/serializer-pack": {
+        "version": "v1.0.4"
+    },
     "symfony/service-contracts": {
         "version": "v1.1.9"
+    },
+    "symfony/string": {
+        "version": "v5.1.8"
     },
     "symfony/var-dumper": {
         "version": "v4.4.16"
@@ -142,5 +193,8 @@
     },
     "symfony/yaml": {
         "version": "v4.4.16"
+    },
+    "webmozart/assert": {
+        "version": "1.9.1"
     }
 }
